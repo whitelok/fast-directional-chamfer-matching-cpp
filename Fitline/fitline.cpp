@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 
 	if(argc != 4)
 	{
-		std::cerr<<"[Syntax] fitline   input_edgeMap.pgm   output_line.txt   output_edgeMap.pgm"<<std::endl;
+		std::cerr<<"[Syntax] fitline  input_edgeMap.pgm   output_line.txt   output_edgeMap.pgm"<<std::endl;
 		exit(0);
 	}
 
@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
 	
 	lf.Init();
 	
-//	lf.Configure("para_template_line_fitter.txt");
+	lf.Configure("../../Configs/fitline_template.txt");
 	
 	lf.FitLine(inputImage);
 

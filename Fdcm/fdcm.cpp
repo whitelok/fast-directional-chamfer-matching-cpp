@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 	
 	if(argc < 4)
 	{
-		std::cerr<<"[Syntax] FdcmEXE template.txt input_source_image.pgm result.pgm"<<std::endl;
+		std::cerr<<"[Usage] FdcmEXE template.txt input_source_image.pgm result.pgm"<<std::endl;
 		exit(0);
 	}
 

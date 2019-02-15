@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libFitline.a  CMakeFiles/Fitline.dir/LFLineFitter.cpp.o CMakeFiles/Fitline.dir/LFLineSegment.cpp.o CMakeFiles/Fitline.dir/fitline.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libFitline.a

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/karllok/Downloads/fast-directional-chamfer-matching-cpp/Image/DistanceTransform.cpp
+DistanceTransform.h
+/Users/karllok/Downloads/fast-directional-chamfer-matching-cpp/Image/DistanceTransform.h
+
+/Users/karllok/Downloads/fast-directional-chamfer-matching-cpp/Image/DistanceTransform.h
+algorithm
+-
+cmath
+-
+Image.h
+/Users/karllok/Downloads/fast-directional-chamfer-matching-cpp/Image/Image.h
+
+/Users/karllok/Downloads/fast-directional-chamfer-matching-cpp/Image/Image.h
+cstring
+-
+assert.h
+-
+
